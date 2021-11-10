@@ -1,4 +1,4 @@
-const formulario = document.querySelector('#formulario');
+const formulario = document.querySelector('.abs-center');
 const mensaje = document.querySelector('.mensaje');
 
 
@@ -11,7 +11,7 @@ function subirFormulario(e) {
     console.log("Buscando...")
 
     //Validar 
-    const email = document.querySelector('#contrasena').value;
+    const email = document.querySelector('#password').value;
     const contrasena = document.querySelector('#email').value;
 
     if (email === "" || contrasena === "") {

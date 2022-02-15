@@ -6,7 +6,7 @@ footer {
 }
 
 .btn {
-    width: 43vh;
+    width: 53vh;
 }
 
 .main1 {
@@ -482,7 +482,8 @@ footer .list-inline .list-inline-item {
         display: block !important;
         padding: 20px 0 !important;
         font-size: 20px;
-    }
+        
+}
     .btn {
         width: 100%;
 
